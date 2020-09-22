@@ -1,0 +1,18 @@
+.btn-start-order{
+    background: first($transparent-background-list);
+    border: 1px solid  #ccc;
+    border-radius: 3px;
+    color: $magenta-logo;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    &:hover, &:active, &:focus{
+        border-color:  $magenta-logo;
+        color: $turqueza-logo;
+    }
+}
+

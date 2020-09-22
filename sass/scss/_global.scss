@@ -1,0 +1,132 @@
+*{box-sizing: border-box;}
+
+
+html, body{
+    background-color: $color-theme;
+    background-image: $bg-img;
+    background-image: -webkit-image-set();
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+@function first($lista){
+    @return nth($lista, 1);
+}
+@function last($lista){
+    @return nth($lista, lenght($lista));
+}
+
+@each $valor in $bg-color {
+    .bg-#{$valor}{
+        background-color: $valor;
+    }
+    
+}
+
+p{
+    @include theme_mixin()
+    
+}
+
+ul{
+    @include theme_mixin()
+
+}
+
+li{
+    @include theme_mixin()
+}
+
+dt{
+    @include theme_mixin()
+}
+
+div{
+    @include theme_mixin()
+}
+
+a{
+    @include theme_mixin()
+}
+
+h1{
+    @include theme_mixin();
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: $font-size-tittles;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+h2{
+    @include theme_mixin();
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    font-size: $font-size-tittles - 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.colores{
+    color: $magenta-logo;
+}
+
+.margin-section{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+   
+.fotos{
+        height: 100%;
+        width: 100%
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media only screen and (min-width:768px)
+{
+        h1{
+                font-size: $font-size-tittles + 0.5;
+                margin-bottom: 40px;
+                margin-top: 2px;
+              
+        }
+        h2{
+                font-size: $font-size-tittles - 0.5;
+                margin-top: 50px;
+                margin-bottom: 50px;
+        }
+}
+
+@media only screen and (min-width:768px)
+{
+    .margin-section{
+        margin-top: 200px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) 
+{
+    section{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

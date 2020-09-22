@@ -1,0 +1,60 @@
+footer{
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: larger;
+    div.redes-foot{
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        padding-right: 120px;
+        ul{
+            display: inline-block;
+            text-align: center;
+            margin: auto;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            li{
+                display: inline-block;
+                text-align: center;
+                margin: auto;
+                a{
+                    img.logoredes2{
+                        width:  auto;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    div.pfooter
+        {text-align: center;
+        padding: 0;
+        margin: 5px;
+        p{
+            text-align: center;
+            padding: 0;
+            margin: 5px;
+        }
+    }
+}
+
+@media only screen and (min-width:768px)
+{     
+        .redes-foot{
+                text-align: right;
+                font-family: 'Alata', sans-serif;
+                padding-right: 120px;
+        }
+        
+        .redes-foot ul, .redes-foot ul li, .redes-foot ul li {
+                display: inline-block;
+                text-align: right;
+                margin: auto;
+        }
+        
+        .logoredes2{
+                width:  auto;
+                height: 40px;
+        
+        }
+}

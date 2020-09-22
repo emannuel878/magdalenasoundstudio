@@ -1,0 +1,444 @@
+*{box-sizing: border-box;}
+
+body{ 
+        background-color: black;
+        background-image: url(../images/neon6.jpg);
+        
+       background-image: -webkit-image-set();
+    
+        background-attachment: fixed;
+        background-size: cover;
+
+        margin: 0;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        
+
+}
+
+header{ 
+      
+        text-align: center;
+        margin-bottom: 0px;
+        z-index: 999;
+    
+
+}
+
+
+nav{
+        
+        font-family: 'Alata', sans-serif;
+        font-size: smaller;
+        font-style: normal;
+        z-index: 999;
+        padding-top: 0px;
+      
+
+        
+}
+
+nav ul{
+        padding: 200px;
+        padding: 0;
+        
+        margin-top: 20px;
+        text-align: center;
+     
+}
+
+nav ul li {
+        display: inline;
+        margin-right: 5px;
+       
+}
+
+
+
+nav ul li a{
+        font-family: 'Alata', sans-serif;
+        font-size: smaller;
+        font-style: normal;
+        transition: all 1s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        text-decoration: solid;
+        font-family: 'Alata', sans-serif;
+        font-style: normal;
+        padding-bottom: 5px;
+
+}
+
+nav ul li a:hover{
+        color: #8EF2FF;
+       
+}
+
+.logo{
+        width:  auto;
+        height: 150px;
+}
+
+
+#buttom{
+        padding: 0;
+        
+        margin-top: 20px;
+        text-align: center;
+}
+
+
+.margin-section{
+        margin-top: 5px;
+        margin-bottom: 30px;
+        width: 100%;
+}
+
+p{
+        color:white;
+}
+
+ul{
+        color: white;
+}
+
+li{
+        color: white;
+}
+
+dt{
+        color: white;
+}
+
+div{
+        color: white;
+}
+
+a{
+        color: white;
+}
+
+h1{
+        color: white;
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        margin-top: 2px;
+}
+
+h2{
+        color: white;
+        font-family: 'Alata', sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+
+
+.colores{
+        color:  #ff00ff;
+}
+
+.fotos{
+        height: 100%;
+        width: 100%
+}
+
+
+
+.redondeado{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+}
+
+ 
+.colordiv{
+        background-color: black ;
+}
+
+.boxes_servicios{
+        
+        backface-visibility: hidden;
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;    
+        font-family: 'Neuton', serif; 
+        font-size: large;
+        font-style: normal;
+        font-weight: lighter;
+        background-color: rgba(0, 0, 0, 0.50);
+}
+
+.boxes_servicios p, .boxes_servicios ul li{
+        
+   
+     
+   
+        font-family: 'Neuton', serif; 
+        font-size: large;
+        font-style: normal;
+        font-weight: lighter;
+}
+
+
+
+
+
+.separacion_lista_servicios dt{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+
+      
+}
+
+.serviciotittle{
+        font-family:  'Neuton', serif; 
+        font-size: x-large;
+        margin: 0px 10px;
+        
+}
+
+
+legend{
+        text-align: center;
+}
+
+footer{
+        color: white;
+        font-family: 'Alata', sans-serif;
+        font-size: larger;
+      
+}
+
+.redes-foot{
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        padding-right: 120px;
+}
+
+.redes-foot ul, .redes-foot ul li, .redes-foot ul li{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+       }
+.redes-foot ul{
+    
+        padding: 0;
+        margin: 0;
+        text-align: center;
+}
+.logoredes2{
+        width:  auto;
+        height: 20px;
+      
+
+}
+
+.pfooter, .pfooter p{
+        text-align: center;
+        padding: 0;
+        margin: 5px;
+}
+
+textarea {
+	resize: none;
+}
+
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+        box-shadow: none;
+        background-color:rgba(0, 0, 0, 0.75);
+        background-blend-mode: saturation;
+        
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color:  #ff00ff;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999; 
+}
+.btn-start-order {
+        background: rgba(0, 0, 0, 0.75);
+        border: 1px solid  #ccc;
+        border-radius: 3px;
+        color:  #ff00ff;
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        line-height: inherit;
+        margin: 30px 0;
+        padding: 10px 50px;
+        text-transform: uppercase;
+        transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color:  #ff00ff;
+	color: #8EF2FF;
+}
+
+
+.table .thead-light th {
+        color: #495057;
+        background-color: #8EF2FF;
+        border-color: #dee2e6;
+}        
+
+@media only screen and (min-width:768px)
+{
+
+        #buttom{
+                padding: 0;
+                margin-top: 70px;
+                text-align: center;
+        }
+
+        #buttom li{
+                display: inline;
+                margin-right: 15px;
+        }
+
+        #buttom li a{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.25rem;
+                text-decoration: solid;
+                font-family: 'Alata', sans-serif;
+                font-style: normal;
+                padding-bottom: 30px;
+                transition: font-size 0.5s;
+        }
+        
+        #buttom li a:hover{
+                font-size: 1.5rem;
+        }
+        
+        .margin-section{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                width: 100%;
+        }
+        .stiky{
+                position: sticky;
+                top: 0px;
+        
+        }
+        .logo{
+                width:  auto;
+                height: 125px;
+        }
+}   
+
+@media only screen and (min-width:768px)
+{
+        h1{
+                font-size: 3rem;
+                margin-bottom: 40px;
+                margin-top: 2px;
+               
+        }
+        h2{
+                font-size: 2rem;
+                margin-top: 50px;
+                margin-bottom: 50px;
+        }
+}
+
+@media only screen and (min-width:768px)
+{     
+        .redes-foot{
+                text-align: right;
+                font-family: 'Alata', sans-serif;
+                padding-right: 120px;
+        }
+        
+        .redes-foot ul, .redes-foot ul li, .redes-foot ul li {
+                display: inline-block;
+                text-align: right;
+                margin: auto;
+        }
+        
+        .logoredes2{
+                width:  auto;
+                height: 40px;
+        
+        }
+}
+
+
+
+.row{
+        margin-right: 0;
+        margin-left: 0;
+}
+
+
+
+
+.list li{
+        padding-right: 10px;
+        margin-right: 20px;
+}
+
+.table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: rgba(0, 0, 0, 0.50);
+}
+      
+
+.imagengale{
+        width: 100%;
+        max-width: 100%;
+        height: 200px;
+
+}
+@media only screen and (min-width:576px)
+{
+
+        .imagengale{
+                width: 100%;
+                max-width: 100%;
+                height: 450px;
+        }
+        
+}
+
+
+
+@media only screen and (min-width:768px)
+{
+
+        .imagengale{
+                width: 100%;
+                max-width: 100%;
+                height: 500px;
+        }
+        
+}
+
+

@@ -1,0 +1,66 @@
+@mixin boxes($transparent-background, $font-family) {
+    backface-visibility: hidden;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+    font-family: $font-family; 
+    font-size: large;
+    font-style: normal;
+    font-weight: lighter;
+    background-color: $transparent-background;
+}
+
+@mixin boton ($transparent-background){
+    background: $transparent-background;
+    border: 1px solid  #ccc;
+    border-radius: 3px;
+    color: $magenta-logo;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    &:hover, &:active, &:focus{
+        border-color:  $magenta-logo;
+        color: $turqueza-logo;
+    }
+    
+}
+
+@mixin navbar {
+    font-family: 'Alata', sans-serif;
+    font-size: smaller;
+    font-style: normal;
+    z-index: 999;
+    padding-top: 0px;
+    ul{
+        padding: 200px;
+        li{
+            a{
+                font-family: 'Alata', sans-serif;
+                font-size: smaller;
+                font-style: normal;
+                transition: all 1s;
+                &:hover{
+                    color: $turqueza-logo;
+                }
+                
+            }
+        }
+    }
+    
+}
+
+@mixin theme_mixin{
+    @if $color-theme==black {
+        color:white;
+    }@else if $color-theme==white{
+        color:black;
+    }@else if $color-theme==#ff00ff{
+        color:black;
+    }@else if $color-theme==#8EF2FF{
+        color:#ff00ff
+    }
+}
