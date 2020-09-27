@@ -45,16 +45,39 @@ footer{
                 font-family: 'Alata', sans-serif;
                 padding-right: 120px;
         }
-        
-        .redes-foot ul, .redes-foot ul li, .redes-foot ul li {
+      
+}
+
+@media only screen and (min-width:768px)
+{     
+    footer{
+        color: white;
+        font-family: 'Alata', sans-serif;
+        font-size: larger;
+        div.redes-foot{
+            text-align: right;
+            font-family: 'Alata', sans-serif;
+            padding-right: 120px;
+            ul{
                 display: inline-block;
                 text-align: right;
                 margin: auto;
+               
+           
+                li{
+                    display: inline-block;
+                    text-align: right;
+                    margin: auto;
+                    a{
+                        img.logoredes2{
+                            width:  auto;
+                            height: 35px;
+                        }
+                    }
+                }
+            }
         }
-        
-        .logoredes2{
-                width:  auto;
-                height: 40px;
-        
-        }
+    }
+    
 }
+
