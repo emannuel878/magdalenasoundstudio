@@ -6,13 +6,21 @@
 }
 
 table.table{
+    text-align: center;
+    font-family: 'Neuton', serif; 
+    font-size: large;
+    font-style: normal;
+    font-weight: lighter;
+    text-transform: capitalize;
     thead.thead-light{
         tr{
             th{
                 color: #495057;
                 background-color: #8EF2FF;
                 border-color: #dee2e6;
+               
             }
+           
         }
     }
 
