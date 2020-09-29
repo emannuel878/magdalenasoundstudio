@@ -104,3 +104,43 @@ div.boxes_servicios{
 }
 
 
+/* gallery bootsnip*/
+
+.portfolio-menu{
+	text-align:center;
+}
+
+div.portfolio-menu{
+    ul{
+        li{
+            display:inline-block;
+	        margin:0;
+	        list-style:none;
+	        padding:10px 15px;
+	        cursor:pointer;
+	        -webkit-transition:all 05s ease;
+	        -moz-transition:all 05s ease;
+	        -ms-transition:all 05s ease;
+	        -o-transition:all 05s ease;
+            transition:all .5s ease;
+        }
+    }
+}
+
+.portfolio-item{
+    /*width:100%;*/
+    width: 100%;
+}
+
+.img-fluid {
+    width: 18rem;
+    height: 12rem;
+  }
+
+
+.item{
+    /*width:303px;*/
+    width: 303px;
+	float:left;
+	margin-bottom:10px;
+}
