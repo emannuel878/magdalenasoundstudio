@@ -1,7 +1,7 @@
-$('.portfolio-item').isotope({
-        itemSelector: '.item',
-        layoutMode: 'fitRows'
-        });
+        // $('.portfolio-item').isotope({
+        //  	itemSelector: '.item',
+        //  	layoutMode: 'fitRows'
+        //  });
         $('.portfolio-menu ul li').click(function(){
             $('.portfolio-menu ul li').removeClass('active');
             $(this).addClass('active');
@@ -19,5 +19,5 @@ $('.portfolio-item').isotope({
         gallery : {
             enabled : true
         }
-    });
-});
+        });
+        });
