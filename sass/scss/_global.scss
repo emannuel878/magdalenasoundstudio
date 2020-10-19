@@ -130,3 +130,16 @@ section{
         padding-bottom: 30px;
     }
 }
+
+.video{  
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    height: 75vh;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
